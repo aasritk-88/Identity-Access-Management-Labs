@@ -28,14 +28,18 @@ Exercises are structured around common identity lifecycle scenarios (user provis
 
 **Task 1: Create a New User**
 1. Signed in to the Microsoft Entra admin center as Global Administrator.
-![Signed in to Entra admin center](screenshots/Ex1-1.png)
 2. Navigated to Entra ID → Users → All Users → New user → Create new user.
+![Signed in to Entra admin center](screenshots/Ex1-1.png)
+![New user creation menu](screenshots/Ex1-2.png)
 3. Set up the new account:
    - User principal name: `AlexS`
    - Display name: `Alex Smith`
    - Enabled auto-generate password
+   ![New user details form filled in](screenshots/Ex1-3.png)
 4. Saved the generated password securely for the next step.
 5. Reviewed the details and confirmed user creation.
+![Confirm Create new User ](screenshots/Ex1-4.png)
+![User successfully created](screenshots/Ex1-5.png)
 
 **Task 2: Sign In as the New User and Check Access Level**
 1. Opened an incognito browser window and navigated to entra.microsoft.com.
