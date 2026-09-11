@@ -59,7 +59,7 @@ Exercises are structured around common identity lifecycle scenarios (user provis
    as expected for a standard (non-admin) user account.
 ![Restricted app creation option](screenshots/Ex1-13.png)
 ![Restricted app creation option](screenshots/Ex1-14.png)
-9. Checked the Consent and Permissions settings to see verify lack of admin previleges
+9. Checked the Consent and Permissions settings to verify lack of admin previleges
 ![Consent and permissions settings](screenshots/Ex1-15.png)
 ![Consent and permissions settings](screenshots/Ex1-16.png)
 11. Signed out of the Alex Smith session.
