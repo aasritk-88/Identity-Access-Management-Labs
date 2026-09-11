@@ -41,13 +41,26 @@ Exercises are structured around common identity lifecycle scenarios (user provis
 ![Confirm Create new User ](screenshots/Ex1-4.png)
 ![User successfully created](screenshots/Ex1-5.png)
 
-**Task 2: Sign In as the New User and Check Access Level**
+**Task 2: Sign In as the New User and attempt App creation**
 1. Opened an incognito browser window and navigated to entra.microsoft.com.
+![Incognito sign-in page](screenshots/Ex1-6.png)
 2. Signed in as Alex Smith using the generated credentials.
+![Signing in as Alex Smith](screenshots/Ex1-7.png)
 3. Was prompted to set a new password on first login and completed that step.
-4. Used the search bar to locate Enterprise Applications.
-5. Tried to create a new application — confirmed the option was restricted, 
+![Password reset prompt](screenshots/Ex1-8.png)
+4. Was prompted to set up multi-factor authentication and configured Microsoft Authenticator for the account.
+![Microsoft Authenticator setup](screenshots/Ex1-9.png)
+![Microsoft Authenticator setup](screenshots/Ex1-10.png)
+5. Successfully signed in to the account.
+![Signed in successfully](screenshots/Ex1-11.png)
+6. Used the search bar to locate Enterprise Applications.
+![Navigating to Enterprise Applications](screenshots/Ex1-12.png)
+7. Tried to create a new application — confirmed the option was restricted, 
    as expected for a standard (non-admin) user account.
-6. Reviewed the Consent and Permissions settings to see what a standard 
-   user can access by default.
-7. Signed out of the Alex Smith session.
+![Restricted app creation option](screenshots/Ex1-13.png)
+![Restricted app creation option](screenshots/Ex1-14.png)
+9. Checked the Consent and Permissions settings to see verify lack of admin previleges
+![Consent and permissions settings](screenshots/Ex1-15.png)
+![Consent and permissions settings](screenshots/Ex1-16.png)
+11. Signed out of the Alex Smith session.
+![Sign-out confirmation](screenshots/Ex1-17.png)
