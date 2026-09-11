@@ -26,14 +26,24 @@ Exercises are structured around common identity lifecycle scenarios (user provis
 
 ## Exercise 1 — Creating and Testing a New User
 
-I signed into the Microsoft Entra admin center as Global Administrator and 
-created a new test user, Alex Smith, via Users → All Users → New user, with 
-auto-generated password enabled.
+**Task 1: Create a New User**
+1. Signed in to the Microsoft Entra admin center as Global Administrator.
+![Signed in to Entra admin center](screenshots/Ex1-1.png)
+2. Navigated to Entra ID → Users → All Users → New user → Create new user.
+3. Set up the new account:
+   - User principal name: `AlexS`
+   - Display name: `Alex Smith`
+   - Enabled auto-generate password
+4. Saved the generated password securely for the next step.
+5. Reviewed the details and confirmed user creation.
 
-To verify the account was correctly provisioned, I opened an incognito browser 
-session and signed in as Alex Smith, updating the temporary password on first 
-login. From there, I checked Enterprise Applications to confirm the account 
-had standard user privileges rather than admin rights — the "Create your own 
-application" option was unavailable, as expected for a non-admin account. I also 
-looked through the Consent and Permissions settings to see what a standard 
-user can and can't access by default.
+**Task 2: Sign In as the New User and Check Access Level**
+1. Opened an incognito browser window and navigated to entra.microsoft.com.
+2. Signed in as Alex Smith using the generated credentials.
+3. Was prompted to set a new password on first login and completed that step.
+4. Used the search bar to locate Enterprise Applications.
+5. Tried to create a new application — confirmed the option was restricted, 
+   as expected for a standard (non-admin) user account.
+6. Reviewed the Consent and Permissions settings to see what a standard 
+   user can access by default.
+7. Signed out of the Alex Smith session.
